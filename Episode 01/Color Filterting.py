@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 img = cv2.imread('Images/VW_Van.png')
-img = cv2.resize(img,(512,512))
+
 Upper_Limit = np.array([109, 255, 255])
 Lower_Limit = np.array([70, 121, 99])
 
